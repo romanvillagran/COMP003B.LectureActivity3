@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace COMP003B.LectureActivity3.Model
+namespace COMP003B.LectureActivity3.Models
 {
     public class Product
     {
@@ -14,6 +14,6 @@ namespace COMP003B.LectureActivity3.Model
         public decimal Price { get; set; }
 
         [Required]
-        public string Catagory { get; set; }
+        public string Category { get; set; }
     }
 }

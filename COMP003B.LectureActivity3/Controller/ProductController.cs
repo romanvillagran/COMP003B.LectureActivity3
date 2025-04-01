@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using COMP003B.LectureActivity3.Model;
+using COMP003B.LectureActivity3.Models;
 
 namespace COMP003B.LectureActivity3.Controllers
 {
-    [Route("products")]
+    [Route("product")]
 
     public class ProductController : Controller
     {
