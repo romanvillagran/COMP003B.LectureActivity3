@@ -26,7 +26,21 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                    </ul>
+                    <!--start-->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Shop" asp-action="Index">Shop</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Product" asp-action="Create">Create Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Store" asp-action="ViewProduct" asp-route-id="1">View Product (store)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Store" asp-action="Search" asp-route-category="Books">Search Products</a>
+                        </li>
+                    <!--end-->
+					</ul>
                 </div>
             </div>
         </nav>
